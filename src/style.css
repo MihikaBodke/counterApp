@@ -1,0 +1,57 @@
+.counter {
+    width: 180px;
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color); 
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+  
+    overflow: hidden;
+    box-sizing: border-box;
+    color: var(--primary-color);
+  }
+
+.countdecrease{
+  width: 60;
+  height: 56;
+  color: "primary";
+  background-color : "white" !important;
+  border-width : 0 1px 0 0;
+  border-color : "primary";
+
+}
+
+.countincrease{
+  width: 60;
+  height: 56;
+  color: "primary";
+  background-color : "tertiary";
+  border-width : 0 1px 0 0;
+  border-color : "primary";
+
+}
+  
+  .count-input {
+    width: 60px;
+    height: 56px;
+    background: none;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-left: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+    border-radius: 0;
+    outline: none;
+    -moz-appearance: textfield;
+  }
+  
+  .count-input::-webkit-outer-spin-button,
+  .count-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
